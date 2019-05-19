@@ -16,8 +16,9 @@ var db = require("./models");
 var PORT = process.env.PORT || 3000;
 
 var MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb://localhost/unit18Populater";
+  process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 // "mongodb://localhost/mongoHeadlines"
+// "mongodb://localhost/unit18Populater"
 // Initialize Express
 var app = express();
 
